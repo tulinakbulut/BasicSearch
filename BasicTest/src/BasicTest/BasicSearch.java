@@ -23,6 +23,7 @@ public class BasicSearch {
         String element=driver.findElement(By.id("s-result-count")).getText();
         System.out.println(element);
        driver.quit();
+       System.out.println("driver closed");
 }
 
 }
